@@ -1,0 +1,100 @@
+:root {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	font-family: Poppins, Helvetica, Arial, sans-serif;
+	font-synthesis: none;
+	font-weight: 400;
+	line-height: 1.5;
+	text-rendering: optimizeLegibility;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+}
+html,
+body {
+	height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+#root {
+	isolation: isolate;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+a {
+	font-weight: 500;
+	color: #08c;
+	text-decoration: inherit;
+}
+
+a:hover {
+	color: #08c;
+}
+
+a.active {
+	color: #08c;
+}
+
+.navigation-link {
+	border-radius: 4px;
+	padding: 4px 8px;
+}
+
+.navigation-link:hover {
+	background: var(--chakra-colors-blue-50);
+	color: #08c;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		color: #213547;
+		background-color: #ffffff;
+	}
+	a:hover {
+		color: #08c;
+	}
+	button {
+		background-color: #f9f9f9;
+	}
+}
